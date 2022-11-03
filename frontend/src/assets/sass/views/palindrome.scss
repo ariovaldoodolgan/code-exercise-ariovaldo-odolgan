@@ -1,0 +1,23 @@
+#palindrome {
+    .form {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        margin: 30px auto;
+    }
+
+    .table {
+        border-radius: 10px;
+        width: 80%;
+        margin: 0 auto;
+
+        th {
+            font-weight: 700;
+            font-size: 16px;
+
+            &.header-result {
+                width: 50%;
+            }
+        }
+    }
+}
